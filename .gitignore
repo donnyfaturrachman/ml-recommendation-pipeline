@@ -1,5 +1,60 @@
-*.class
-*.log
-
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pkl
+*.joblib
+*.log
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data & model files
+*.parquet
+*.csv
+*.tsv
+*.json
+data/
+model_registry/
+
+# Scala / Java
+*.class
+target/
+project/target/
+project/project/
+
+# Spark / SBT / Scala tools
+.history
+.worksheet
+.metals/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Docker
+*.tar
+*.img
+docker-compose.override.yml
+
+# Node / npm (just in case)
+node_modules/
+package-lock.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
